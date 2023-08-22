@@ -31,6 +31,19 @@ program abc {
 		corsa.izquierda()
 	})
 	
+	keyboard.num8().onPressDo({
+		swift.arriba()
+	})
+	keyboard.num2().onPressDo({
+		swift.abajo()
+	})
+	keyboard.num6().onPressDo({
+		swift.derecha()
+	})
+	keyboard.num4().onPressDo({
+		swift.izquierda()
+	})
+	
 	
 	game.start()
 

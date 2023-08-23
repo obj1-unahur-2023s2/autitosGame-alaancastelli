@@ -6,7 +6,7 @@ program abc {
 	game.height(12)
 	game.width(12)
 	game.title("Juego de autitos")
-	game.ground("paredLadrillos3.jpg")
+	game.ground("paredLadrillos2.jpg")
 	corsa.position(game.at(3,8))//Para que el auto aparezca en un lugar especifico del tablero
 	game.addVisual(corsa)
 	polo.position(game.origin())//Para que el auto aparezca en el inicio del tablero
@@ -31,16 +31,16 @@ program abc {
 		corsa.izquierda()
 	})
 	
-	keyboard.num8().onPressDo({
+	keyboard.w().onPressDo({
 		swift.arriba()
 	})
-	keyboard.num2().onPressDo({
+	keyboard.s().onPressDo({
 		swift.abajo()
 	})
-	keyboard.num6().onPressDo({
+	keyboard.d().onPressDo({
 		swift.derecha()
 	})
-	keyboard.num4().onPressDo({
+	keyboard.a().onPressDo({
 		swift.izquierda()
 	})
 	

@@ -6,7 +6,7 @@ program abc {
 	game.height(12)
 	game.width(12)
 	game.title("Juego de autitos")
-	game.ground("paredLadrillos2.jpg")
+	game.boardGround("fondo.png")
 	corsa.position(game.at(3,8))//Para que el auto aparezca en un lugar especifico del tablero
 	game.addVisual(corsa)
 	polo.position(game.origin())//Para que el auto aparezca en el inicio del tablero
